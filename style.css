@@ -1,45 +1,134 @@
-.princ{
-    background-color: #f2b8e6;
-    text-align: center;
-    padding: 30px;
-    
+header {
+    background: #f2b8e6;
+    padding: 20px 0;
 }
-.titulo-principal{
-padding-left: 20px;
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
-.titulo-centralizado{
-text-align: center;
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0%;
 }
-#img1{
-        width: 100%}
-p {
-    text-align: center;
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
-#missao{ font-size: 20px;
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
-em strong{
+
+nav :hover {
     color: rgb(107, 62, 118);
+    text-decoration: underline;
 }
-.list{
-    text-align: left;
-    font-size: 25px;
-    font-style: italic;
-}
-#img3{
-    width: 50%;
 
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
-.listabeneficios{
+
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    background: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+
 }
 
-.itens{
-    font-style: italic;
+.produtos :hover {
+    border-color: rgb(219, 150, 236);
 }
-.beneficios{
- background-color: rgb(219, 45, 225);
- padding: 20px;
+
+.produtos :hover h2 {
+    font-size: 34px;
+
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.prod-desc {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(ARQUIVOS_BARBEARIA/bg.jpg);
+    padding: 30px 0;
+}
+
+#texto {
+    color: aliceblue;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+p {
+    color: #e72cc2;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orchid;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+}
+
+.enviar :hover{
+    background: #f2b8e6;
 }
